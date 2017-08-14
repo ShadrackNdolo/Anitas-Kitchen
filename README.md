@@ -1,4 +1,4 @@
-# Anita-s-Kitchen
+# Anita's Kitchen
 
 #### A simple portfolio website. Friday 4th August 2017.
 
