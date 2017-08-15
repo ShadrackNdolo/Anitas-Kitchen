@@ -27,33 +27,56 @@
 
 #happyhour{
   text-align: center;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  padding-bottom: 29.5px;
+  padding-top: 29.5px;
   color: black;
+  font-family: 'Poly', serif;
+  font-size: 22px;
+  width: 341.5px;
+
 }
 #partytime{
   background-color: #F15A29;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  padding-bottom: 29.5px;
+  padding-top: 29.5px;
   color: white;
   text-align: center;
+  font-family: 'Poly', serif;
+  font-size: 22px;
+  width: 341.5px;
 }
 
 #breakfast{
   background-image: url("../assets/foodtop/breakfast.jpg");
-  padding-bottom: 170px;
+  padding-bottom: 180px;
   color: white;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  height: 180px;
+  line-height: 180px;
 }
 #lunch{
   background-image: url("../assets/foodtop/lunch.jpg");
-  padding-bottom: 170px;
+  padding-bottom: 180px;
   color: white;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  height: 180px;
+  line-height: 180px;
+
 }
 #dinner{
   background-image: url("../assets/foodtop/dinner1.jpg");
   background-image: url("../assets/foodtop/dinner2.jpg");
-  padding-bottom: 170px;
+  padding-bottom: 180px;
   color: white;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  height: 180px;
+  line-height: 180px;
 }
 
 #images2{
@@ -65,3 +88,5 @@
 .section3{
   margin: 100px;
 }
+
+/*font-family: 'Roboto', sans-serif;*/
