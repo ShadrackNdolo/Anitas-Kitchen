@@ -8,7 +8,6 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.2.1.js"></script>
   <script src="js/bootstrap.js"></script>
-  <script src="js/scripts.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cantarell:400i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poly" rel="stylesheet">
@@ -279,89 +278,99 @@
 
   <!--Section5-->
   <div class="section5">
-    <div class="container">
-      <div class="rows" id="testimonials">
-        <div class="col-md-8" id="testimonials">
-          <h2> Our Happy Customers<h2>
 
-            <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
-              <!--indicators-->
-              <!-- <ol>
-                <li data-target="testimonialCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#testimonialCarousel" data-slide-to="1"></li>
-                <li data-target="#testimonialCarousel" data-slide-to="2"></li>
-              </ol> -->
-              <div class="carousel-inner" id="testimonialCarousel">
-                <div class="item-active">
-                  <h3>Customer</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <img src="assets/customers/p1.png" alt="" class="peopleCarouselImg">
-              </div>
-            </div></div>
+    <div class="row" id="testimonialAndAboutRow">
 
-              <!-- <div class="carousel-inner" id="testimonialCarousel">
-                <div class="item">
-                  <h3>Customer2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <img src="assets/customers/p2.png" alt="" class="peopleCarouselImg">
-              </div>
-              </div>
+      <div class="col-md-8 " id="testimonialColumn">
+        <h2>Our Happy Customers</h2>
 
-              <div class="carousel-inner" id="testimonialCarousel">
-                <div class="item">
-                  <h3>Customer3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <img src="assets/customers/p3.png" alt="" class="peopleCarouselImg">
-              </div>
-            </div></div> -->
-
-              <!--left and right controls-->
-              <a class="left carousel-control" href="#testimonialCarousel" data-slide="prev">
-              <span class="icon-prev"></span>
-              <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#testimonialCarousel" data-slide="next">
-              <span class="icon-next"></span>
-              <span class="sr-only">Next</span>
-              </a>
+        <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#testimonialCarousel" data-slide-to="1"></li>
+            <li data-target="#testimonialCarousel" data-slide-to="2"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" id="testimonialCarousel">
+            <div class="item active">
+              <h3>Customer 1</h3>
+              <p>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas.</p>
+              <img src="assets/customers/p1.png" alt="Customer 1" class="peopleCarouselImg">
             </div>
 
-              <div class="col-md-4">
-                <h2>About Menu</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <div class="item">
+              <h3>Customer 2</h3>
+              <p>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas.</p>
+              <img src="assets/customers/p2.png" alt="Customer 2" class="peopleCarouselImg">
+            </div>
+
+            <div class="item">
+              <h3>Customer 3</h3>
+              <p>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas.</p>
+              <img src="assets/customers/p3.png" alt="Customer 3" class="peopleCarouselImg">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#testimonialCarousel" data-slide="prev">
+                  <span class="icon-prev"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+          <a class="right carousel-control" href="#testimonialCarousel" data-slide="next">
+                  <span class="icon-next"></span>
+                  <span class="sr-only">Next</span>
+                </a>
         </div>
       </div>
-    </div>
-    <!--section6-->
-    <div class="section6">
-      <div class="container">
-        <h2=Get our daily food items delivered to your email.</h2>
-          <form class="form-inline" id="subscribe">
-            <div class="form-group">
-              <input id="subscribeEmail" class="form-control" type="email" placeholder="Your email">
-              <button type="submit " class="btn " id="subscribebutton ">Subscribe</button></div>
-          </form>
+
+      <div class="col-md-4">
+        <h2>About Menu</h2>
+        <p>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas. Placerat integer mollis. Duis quis congue.Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas. Placerat integer mollis. Duis quis congue.Lorem
+          ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas. Placerat integer mollis. Duis quis congue</p>
       </div>
+
     </div>
-    <!--Section7-->
-    <div class="section7">
-      <div class="container">
-        <footer>
-          <img src="assets/footerlogos/logo_white.png " alt="Logo of Anitas Kitchen " id="menuFooterLogo ">
 
-          <p>
-            <img src="assets/footerlogos/facebook.png " alt=" " id="facebookLogo ">
-            <img src="assets/footerlogos/twitter.png " alt=" " id="twitterLogo ">
-            <img src="assets/footerlogos/pinterest.png " alt=" " id="pinterestLogo ">
-          </p>
+  </div>
+  <!--section6-->
+  <div class="section6">
+    <div class="container">
+      <h2=Get our daily food items delivered to your email.</h2>
+        <form class="form-inline" id="subscribe">
+          <div class="form-group">
+            <input id="subscribeEmail" class="form-control" type="email" placeholder="Your email">
+            <button type="submit " class="btn " id="subscribebutton ">Subscribe</button></div>
+        </form>
+    </div>
+  </div>
+  <!--Section7-->
+  <div class="section7">
 
-          <p id="copyright "><br/><small>&copy; 2016 Menu Restaurant</small></p>
+    <footer>
 
-        </footer>
+      <img src="assets/footerlogos/logo_white.png" alt="Logo of Anita's Kitchen" id="menuFooterLogo">
+      <h2 id="menuFooterHeader">MENU</h2> <br/>
+      <p id="menuFooterSlogan">Thats What We Are</p><br/>
+
+      <div class="facebookLogoContainer inline">
+        <i class="fa fa-facebook" aria-hidden="true" id="facebookLogo"></i>
       </div>
-    </div>
 
+      <div class="twitterLogoContainer inline">
+        <i class="fa fa-twitter" aria-hidden="true" id="twitterLogo"></i>
+      </div>
+
+
+      <div class="pinterestLogoContainer inline">
+        <i class="fa fa-pinterest" aria-hidden="true" id="pinterestLogo"></i>
+      </div>
+
+      <p id="copyright"><br/><small>&copy; 2016 Menu Resturant</small></p>
+
+    </footer>
+
+  </div>
 </body>
 
 </html>
