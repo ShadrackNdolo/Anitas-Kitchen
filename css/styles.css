@@ -132,6 +132,10 @@ body {
   width: 100%;
 }
 
+#happyhour:hover{
+  opacity: 0.8;
+}
+
 #happyhour{
   text-align: center;
   padding-bottom: 29.5px;
@@ -141,6 +145,10 @@ body {
   font-size: 22px;
   width: 341.5px;
 
+}
+
+#partytime:hover{
+  opacity: 0.8;
 }
 
 #partytime{
@@ -154,6 +162,10 @@ body {
   width: 341.5px;
 }
 
+#breakfast:hover{
+  opacity: 0.8;
+}
+
 #breakfast{
   background-image: url("../assets/foodtop/breakfast.jpg");
   padding-bottom: 180px;
@@ -163,6 +175,10 @@ body {
   text-align: center;
   height: 180px;
   line-height: 180px;
+}
+
+#lunch:hover{
+  opacity: 0.8;
 }
 
 #lunch{
@@ -175,6 +191,10 @@ body {
   height: 180px;
   line-height: 180px;
 
+}
+
+#dinner:hover{
+  opacity: 0.8;
 }
 
 #dinner{
