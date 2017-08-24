@@ -22,13 +22,15 @@
 
 ## Known Bugs
 
-*The CSS file needs a little bit more editing for the customers carousel. The email subscription setup is still under construction.
+* All bugs fixed
+* The buttons are not functional.
+* The email section requires jquery to give a prompt.
 
 ## Technologies Used
 
-*HTML 5.
-*BOOTSTRAP.
-*CSS.
+* HTML 5.
+* BOOTSTRAP.
+* CSS.
 
 
 ### License
